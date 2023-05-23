@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+  }
+  h1{
+    text-align : center;
+    color:#ff0000;
+  }
+  form{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  #task-input{
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button{
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #20b128
+  }
+  #task-list{
+    list-style-type: none;
+    padding: 0;
+  }
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px
+  }
+  .task-item input[type="checkbox"]{
+    margin-right: 8px;
+  }
+  .task-item .task-description {
+    flex-grow: 1;
+  }
+  
